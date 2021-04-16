@@ -1,68 +1,55 @@
-# Pupster App
+# Unit 19 React Homework: Employee Directory
 
-In this activity we will work to create an entire React application from scratch, complete with routing and AJAX requests to the [Dog Ceo API](https://dog.ceo/dog-api/): an API for dog images.
+## Overview
 
-## Instructions
+For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
 
-* Start by scaffolding out a new starter React app by running the following command in your terminal `npx create-react-app pupster`.
+## User Story
 
-* cd into the `pupster` directory and run the following command to install React Router, Axios, and Bootstrap:
+* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
-  ```
-  npm install axios react-router-dom bootstrap
-  ```
+## Business Context
 
-* This activity uses Bootstrap, so make sure you `import 'bootstrap/dist/css/bootstrap.min.css';` in `index.js`
+An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
-* **Recommended:** Add the Font Awesome CDNs to your application's `index.html` file:
+## Acceptance Criteria
 
-  ```html
-  <link
-    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    rel="stylesheet"
-  />
-  ```
-  
-* Open [https://pupster.netlify.com/](https://pupster.netlify.com/) in your web browser and take a few moments to study the example application. You will be basing your Pupster app off of this example.
+Given a table of random users generated from the [Random User API](https://randomuser.me/), when the user loads the page, a table of employees should render. 
 
-  * This example contains 3 routes:
+The user should be able to:
 
-    1. `/about`: A static welcome screen for visitors to the application.
+  * Sort the table by at least one category
 
-    2. `/discover`: This page displays a photo of a random dog retrieved from the [Dog Ceo API](https://dog.ceo/dog-api/). This page contains 2 clickable buttons: one for passing or "thumbs-downing" a dog, and one for picking or "thumbs-upping" a dog. When either button is clicked, a new dog image is loaded from the API. If you "thumbs up" a dog, there is a 1 in 5 chance that the dog likes you too, and the friends count goes up by 1.
+  * Filter the users by at least one property.
 
-    3. `/search`: This page allows you to search the [Dog Ceo API](https://dog.ceo/dog-api/) for all dogs by breed. After a search is made, a list of all of the results appears underneath.
+## Commit Early and Often
 
-* Your Pupster app should implement each of these three pages and their basic functionality, **don't spend much time styling your app until you have completed everything else.**
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
-* Your Pupster app should display a navigation bar that is present on every route.
+1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-* Begin with routing. For each route, render a different component for each page without worrying about building in any behaviors yet. Then work on implementing the most basic functionality for each page, one piece at a time.
+2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
 
-### Bonus
+Follow these guidelines for committing:
 
-* Once you complete all of the basic functionality for this activity, work on adding additional styles and making it look great.
+* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
 
-### Hints
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
 
-* Don't worry about styling or making things fancy at first. Just use Bootstrap classes and get the basic functionality for each page working. Get the app to work first, then come back and make it awesome.
+* Don't commit half done work, for the sake of your collaborators (and your future self!)
 
-* Use the <https://dog.ceo/api/breeds/image/random> endpoint to get a random dog image.
+* Test your application before you commit to ensure functionality at every step in the development process
 
-* Use the <https://dog.ceo/api/breed/hound/images> endpoint (replace "hound" with your breed of choice) endpoint to get an array of all available dog images of the selected breed.
+* We would like you to have well over 200 commits by graduation, so commit early and often!
 
-* See <https://dog.ceo/api/breeds/list> for a list of all available dog breeds. You can test the `/search` page by searching for any of the breeds returned by this endpoint.
+* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
 
-* Don't hesitate to refer back to the earlier examples from today.
+* **Important**: Be sure to push your codebase to GitHub and **NOT** your built and deployed code. Ensure this happens by following the above instructions and using the `gh-pages` branch to host the deployed application's code.
 
-* Utilize documentation if you're still unsure about how anything works: 
+## Submission on BCS
 
-  * [Axios](https://github.com/mzabriskie/axios)
-  
-  * [React Router](https://reacttraining.com/react-router/web/guides/philosophy)
+You are required to submit the following:
 
-  * [React](https://facebook.github.io/react/docs/hello-world.html)
+* the URL to the deployed application
 
-  * [Dog Ceo](https://dog.ceo/dog-api/)
-
-* Ask for help if you get stuck!
+* the URL to the Github repository
