@@ -1,9 +1,7 @@
 import "./styles.css";
-import { Home } from "./pages/Home";
 import React, { Component } from "react";
 import EmpCard from "./components/EmpCard/EmpCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import emps from "./emps.json";
 
 class App extends Component {
@@ -14,14 +12,13 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Empllyee List</Title>
-        {this.state.friends.map((emp) => (
+        <h2>Employee List</h2>
+        {this.state.emps.map((emp) => (
           <EmpCard
-            id={emp.id}
-            key={emp.id}
-            name={emp.name}
+            id={emp.id.value}
+            name={emp.name.first}
             email={emp.email}
-            location={emp.location}
+            location={emp.location.city}
           />
         ))}
       </Wrapper>
