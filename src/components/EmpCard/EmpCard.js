@@ -10,6 +10,9 @@ function EmpCard(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
+            <strong>ID:</strong> {props.id}
+          </li>
+          <li>
             <strong>Email:</strong> {props.email}
           </li>
           <li>
