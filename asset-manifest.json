@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ampieschke/static/css/main.d8a1e871.chunk.css",
+    "main.js": "/ampieschke/static/js/main.42795736.chunk.js",
+    "main.js.map": "/ampieschke/static/js/main.42795736.chunk.js.map",
+    "runtime-main.js": "/ampieschke/static/js/runtime-main.a7d5bfb2.js",
+    "runtime-main.js.map": "/ampieschke/static/js/runtime-main.a7d5bfb2.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/ampieschke/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d8cb9580.chunk.js": "/ampieschke/static/js/2.d8cb9580.chunk.js",
+    "static/js/2.d8cb9580.chunk.js.map": "/ampieschke/static/js/2.d8cb9580.chunk.js.map",
+    "index.html": "/ampieschke/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/ampieschke/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.d8a1e871.chunk.css.map": "/ampieschke/static/css/main.d8a1e871.chunk.css.map",
+    "static/js/2.d8cb9580.chunk.js.LICENSE.txt": "/ampieschke/static/js/2.d8cb9580.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7d5bfb2.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d8cb9580.chunk.js",
+    "static/css/main.d8a1e871.chunk.css",
+    "static/js/main.42795736.chunk.js"
+  ]
+}
