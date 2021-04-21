@@ -4,6 +4,9 @@ import "./style.css";
 function EmpCard(props) {
   return (
     <div className="card">
+      <div className="img-container">
+        <img alt={props.name} src={props.pic} />
+      </div>
       <div className="content">
         <ul>
           <li>
